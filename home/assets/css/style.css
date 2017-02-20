@@ -1,0 +1,275 @@
+/* CUSTOMIZED BOOTSTRAP 3.3.7 CSS */
+
+body {
+  min-height: 100%;
+  overflow: auto;
+  background-color: #f0f0f0 !important;
+}
+
+#datepicker {
+    z-index: 100000;
+}
+
+.navbar-custom {
+  background-color: #e74c3c;
+  border-color: #222;
+}
+.navbar-custom .navbar-brand {
+  color: #ffffff;
+}
+.navbar-custom .navbar-brand:hover,
+.navbar-custom .navbar-brand:focus {
+  color: #222;
+}
+.navbar-custom .navbar-text {
+  color: #222;
+}
+.navbar-custom .navbar-nav > li > a {
+  color: #ffffff;
+}
+.navbar-custom .navbar-nav > li > a:hover,
+.navbar-custom .navbar-nav > li > a:focus {
+  color: #222;
+  background-color: transparent;
+}
+.navbar-custom .navbar-nav > .active > a,
+.navbar-custom .navbar-nav > .active > a:hover,
+.navbar-custom .navbar-nav > .active > a:focus {
+  /* color: #990000; */
+  background-color: #c0392b;
+}
+.navbar- .navbar-nav > .disabled > a,
+.navbar-custom .navbar-nav > .disabled > a:hover,
+.navbar-custom .navbar-nav > .disabled > a:focus {
+  color: #ccc;
+  background-color: transparent;
+}
+.navbar-custom .navbar-toggle {
+  border-color: #ffffff;
+}
+.navbar-custom .navbar-toggle:hover,
+.navbar-custom .navbar-toggle:focus {
+  background-color: #c0392b;
+}
+.navbar-custom .navbar-toggle .icon-bar {
+  background-color: #ffffff;
+}
+.navbar-custom .navbar-collapse,
+.navbar-custom .navbar-form {
+  border-color: #e7e7e7;
+}
+.navbar-custom .navbar-nav > .open > a,
+.navbar-custom .navbar-nav > .open > a:hover,
+.navbar-custom .navbar-nav > .open > a:focus {
+  color: #ffffff;
+  background-color: #c0392b;
+}
+@media (max-width: 767px) {
+  .navbar-custom .navbar-nav .open .dropdown-menu > li > a {
+    color: #ffffff;
+  }
+  .navbar-custom .navbar-nav .open .dropdown-menu > li > a:hover,
+  .navbar-custom .navbar-nav .open .dropdown-menu > li > a:focus {
+    color: #222;
+    background-color: transparent;
+  }
+  .navbar-custom .navbar-nav .open .dropdown-menu > .active > a,
+  .navbar-custom .navbar-nav .open .dropdown-menu > .active > a:hover,
+  .navbar-custom .navbar-nav .open .dropdown-menu > .active > a:focus {
+    /* color: #555; */ 
+    background-color: #c0392b;
+  }
+  .navbar-custom .navbar-nav .open .dropdown-menu > .disabled > a,
+  .navbar-custom .navbar-nav .open .dropdown-menu > .disabled > a:hover,
+  .navbar-custom .navbar-nav .open .dropdown-menu > .disabled > a:focus {
+    color: #ccc;
+    background-color: transparent;
+  }
+}
+.navbar-custom .navbar-link {
+  color: #777;
+}
+.navbar-custom .navbar-link:hover {
+  color: #333;
+}
+.navbar-custom .btn-link {
+  color: #777;
+}
+.navbar-custom .btn-link:hover,
+.navbar-custom .btn-link:focus {
+  color: #333;
+}
+.navbar-custom .btn-link[disabled]:hover,
+fieldset[disabled] .navbar-custom .btn-link:hover,
+.navbar-custom .btn-link[disabled]:focus,
+fieldset[disabled] .navbar-custom .btn-link:focus {
+  color: #ccc;
+}
+
+body > .container {
+  background-color: white !important;
+  margin-top: 100px;
+  padding-top:20px;
+}
+
+body > .content
+{
+   margin-bottom: calc(50vh - 63px);
+}
+
+.custom-padding {  /* untuk form  */
+  padding-top:61px;
+}
+
+.btn-custom-width {
+  width: 20% !important;
+}
+.warning {
+  padding-top: 5px;
+  color: red;
+}
+
+.dropdown-custom {
+  padding: 15px !important; 
+  padding-bottom: 15px !important;
+}
+
+.inputform {
+  margin-bottom: 15px;
+}
+/* CUSTOMIZED BOOTSTRAP 3.3.7 */
+
+/* ------------------------------- BATAS ------------------------------- */
+
+/* Register */
+/*
+/* Created by Filipe Pina
+ * Specific styles of signin, register, component
+ */
+/*
+ * General styles
+ */
+
+/*body, html{
+  height: 100%;
+  background-repeat: no-repeat;
+  background-color: #d3d3d3;
+  font-family: 'Oxygen', sans-serif;
+}*/
+
+.main{
+  /*margin-top: 50px;*/
+  margin: 50px auto auto auto;
+  width: 100%;
+  height: 100%;
+}
+
+.row-custom {
+  margin-top: 50px !important;
+  height: 50px !important;
+}
+
+h1.title { 
+  font-size: 50px;
+  font-family: 'Passion One', cursive; 
+  font-weight: 400; 
+}
+
+hr{
+  width: 10%;
+  color: #fff;
+}
+
+.form-group{
+  margin-bottom: 15px;
+}
+
+.form-control-custom {
+  width:50% !important;
+}
+
+.form-ctrl-custom {
+  width:100% !important;
+}
+
+label{
+  margin-bottom: 15px;
+}
+
+input,
+input::-webkit-input-placeholder {
+    font-size: 11px;
+    padding-top: 3px;
+}
+
+.main-login{
+  background-color: #fff;
+    /* shadows and rounded borders */
+    -moz-border-radius: 2px;
+    -webkit-border-radius: 2px;
+    border-radius: 2px;
+    -moz-box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+    -webkit-box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+}
+
+.main-center{
+  margin-top: 30px;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin: 0 auto;
+  max-width: 640px;
+    padding: 40px;
+}
+
+.main-login-custom{
+  background-color: #fff;
+    /* shadows and rounded borders */
+    -moz-border-radius: 2px;
+    -webkit-border-radius: 2px;
+    border-radius: 2px;
+    -moz-box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+    -webkit-box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+}
+
+.main-center-custom{
+  margin-top: 30px;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin: 0 auto;
+  max-width: 300px;
+    padding: 40px;
+}
+
+.login-button{
+  margin-top: 5px;
+  margin: 0 auto;
+}
+
+.login-register{
+  font-size: 11px;
+  text-align: center;
+}
+
+/* REGISTER */
+
+/* FOOTER */
+
+.footer {
+  position: relative;
+  margin-top: 60px;
+  bottom: 0;
+    width: 100%;
+  /* Set the fixed height of the footer here */
+    height: 60px;
+    background-color: #222222;
+    color: #808f8b;
+}
+
+.footer > .container-fluid
+{
+  padding-top: 10px;
+}
+
+/* FOOTER */

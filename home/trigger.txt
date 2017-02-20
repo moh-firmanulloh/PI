@@ -1,0 +1,12 @@
+BEGIN
+	DECLARE id_kategori int(11);
+    DECLARE id_user INT(11);
+    
+    SET id_kategori = new.id;
+    SET id_user = new.id_user;
+    
+    INSERT INTO nominal_saldo_user VALUES (new.id, id_user, id_kategori, 0);
+
+    INSERT INTO user_log VALUES(id_user, 'TAMBAH', 'KATEGORI SALDO', id_kategori, 0, '');
+    
+END
